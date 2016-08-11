@@ -25,3 +25,6 @@ To submit a SGE array job with numerous masks on a cluster:
 
     segmask/grid/run_segmask.sh input.mrc /path/to/mask/files /path/to/segmentation/stack
 
+Both segmask.py and run_segmask.sh support a number of the same arguments. These arguments control a variety of important parameters during the masking process, as well as enable postprocessing steps to mesh, filter, and sort each output model file. To view the complete list of arguments, view segmask's help:
+
+    segmask/segmask.py -h
